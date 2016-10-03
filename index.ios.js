@@ -22,9 +22,6 @@ class NonHighlightedTrackName extends Component{
 
 class HelloWorldApp extends Component {
 
-  constructor(props){
-    
-  }
 
   render() {
     let pic = {
