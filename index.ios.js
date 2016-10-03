@@ -22,6 +22,10 @@ class NonHighlightedTrackName extends Component{
 
 class HelloWorldApp extends Component {
 
+  constructor(props){
+    
+  }
+
   render() {
     let pic = {
       uri: 'https://i.ytimg.com/vi/qt2VJUgZR3I/0.jpg'
@@ -39,6 +43,7 @@ class HelloWorldApp extends Component {
           <NonHighlightedTrackName trackName="666"/>
           <HighlightedTrackName trackName="21 Moon Water" />
           <NonHighlightedTrackName trackName="8 (circle)" />
+	  <Text>"This is from a new branch test"</Text>
         </View>
         <View style={{alignItems: 'center', flex:2, backgroundColor: 'green', justifyContent: 'flex-start'}}>
           <Image source={pic} style={{width: 193, height: 110}}/>  
